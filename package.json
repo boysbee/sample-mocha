@@ -1,0 +1,17 @@
+{
+  "name": "sample-mocha",
+  "version": "1.0.0",
+  "description": "A sample mocha unit test.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/supervisor",
+    "test": "node_modules/.bin/mocha -w --reporter spec"    
+  },
+  "author": "nattaporn.c",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.2",
+    "supervisor": "^0.7.1"
+  }
+}
